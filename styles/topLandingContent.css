@@ -1,0 +1,41 @@
+
+
+.top-content-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/backgrounds/landingBackground1.png");
+    background-size: cover;
+}
+
+.top-content-wrapper > .text {
+    position: absolute;
+
+    width: 35%;
+    height: 25%;
+    top: 60%;
+    left: 5%;
+    font-family: 'Archivo', sans-serif;
+}
+
+.top-content-wrapper > .text button {
+    padding: 10px 20px;
+    background: #f4e861fb;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    border: none;
+    border: 2px solid black;
+    outline: none;
+    /* border-radius: 12px; */
+}
+
+.top-content-wrapper > .text > .top {
+    height: 60%;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.top-content-wrapper > .text > .top span {
+    font-size: 2rem;
+    font-weight: 200;
+}
